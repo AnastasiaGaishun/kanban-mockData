@@ -1,0 +1,29 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.app {
+    margin-top: 50px;
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        margin-top: 30px;
+        font-size: 34px;
+    }
+
+    .app {
+        margin-top: 30px;
+    }
+
+}
