@@ -29,7 +29,7 @@ const GET_CARDS_RESPONSE = [
         title: 'change background',
         description: 'please, change background to red',
         userId: 1,
-        columnId: 17
+        columnId: 65
     }
 ];
 
@@ -59,14 +59,14 @@ const GET_COLUMNS_RESPONSE = [
 const GET_USERS_RESPONSE = [
     {
         id: 1,
-        name: 'Vicktor',
+        name: 'Dima',
         email: 'wef@we.ru',
-        photoUrl: 'dsfdsfsdf.com'
+        photoUrl: 'https://24smi.org/public/media/235x307/celebrity/2017/02/16/5QBRax8G5tZY_dmitrii-medvedev.jpg'
     },
     {
         id: 2,
         name: 'Vova',
         email: 'wqweef@we.ru',
-        photoUrl: 'dsfdsfsdf.com'
+        photoUrl: 'https://histrf.ru/uploads/media/person/0001/59/thumb_58645_person_big.jpeg'
     },
 ]
