@@ -16,6 +16,39 @@
     display: flex;
 }
 
+.col {
+    min-width: 350px;
+    border: 1px solid #999999;
+}
+
+.col__header {
+    font-size: 30px;
+}
+
+.card {
+    box-shadow: 0 0 3px #999999;
+}
+
+.card__user {
+    display: flex;
+    align-content: center;
+}
+
+.card__user-name {
+    margin-top: 5px;
+}
+
+.card__user-photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card__user-photo img {
+    width: 100%;
+}
+
 @media screen and (max-width: 767px) {
     .title {
         margin-top: 30px;
